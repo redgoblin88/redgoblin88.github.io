@@ -1,3 +1,9 @@
 body{
   background-color:#cccccc;
   }
+content{
+  border:1px solid red;
+}
+headder{
+  border:1px solid blue;
+}
