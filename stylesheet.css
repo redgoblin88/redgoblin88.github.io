@@ -2,10 +2,12 @@ body{
   background-color:#cccccc;
   }
 .wrapper{
+  background-color:#3399ff;
   border:1px solid red;
   margin:50px;
 }
 .headder{
+  background-color:#0073e6;
   border:1px solid blue;
 }
 #GSR{
