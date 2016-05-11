@@ -3,7 +3,7 @@ body{
   }
 .wrapper{
   border:1px solid red;
-  padding:50px;
+  margin:50px;
 }
 .headder{
   border:1px solid blue;
