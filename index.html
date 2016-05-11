@@ -6,10 +6,27 @@
     <title> test </title>
   </head>
   <body>
+    <!--Declaring all the goodies-->
+    
+    <script>
+			(function() {
+				var cx = '009969993746896670841:byot1a-991i';
+				var gcse = document.createElement('script');
+				var googleNumSearchResults = 5;
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//cse.google.com/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			})();
+		</script>
+		
+		<!--end of declaring goodies-->
     <div class="wrapper">
-      <div class="headder">
-        placeholder
-      </div>
+      <center><div class="headder">
+        <gcse:searchbox></gcse:searchbox>
+      </center></div>
+      <div style="width:700px; margin:10px;" id="gsr"><gcse:searchresults></gcse:searchresults></div>
       <img src="favicon.ico" alt="image not found"/>
       <img src="test.gif" alt="not found"/>
     </div>
