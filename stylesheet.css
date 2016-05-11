@@ -1,9 +1,9 @@
 body{
   background-color:#cccccc;
   }
-content{
+.wrapper{
   border:1px solid red;
 }
-headder{
+.headder{
   border:1px solid blue;
 }
