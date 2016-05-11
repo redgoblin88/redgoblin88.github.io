@@ -7,4 +7,5 @@ body{
 }
 .headder{
   border:1px solid blue;
+  float:center;
 }
