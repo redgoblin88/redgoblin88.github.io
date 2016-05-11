@@ -16,5 +16,6 @@ body{
   width:750px;
 }
 #mbtn{
+  float:left;
   padding: 5px;
 }
