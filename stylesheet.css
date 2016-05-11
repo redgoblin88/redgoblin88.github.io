@@ -4,7 +4,6 @@ body{
 .wrapper{
   border:1px solid red;
   margin:50px;
-  float: center;
 }
 .headder{
   border:1px solid blue;
