@@ -36,3 +36,6 @@ body{
   width: 206px;
   border:1px solid black;
 }
+.icon-close{
+  cursor: pointer;
+}
