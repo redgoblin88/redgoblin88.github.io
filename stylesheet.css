@@ -9,7 +9,8 @@ body{
 .headder{
   background-color:#0073e6;
   border:1px solid blue;
-  height:28px;
+  margin:-1px;
+  height:29px;
 }
 #GSR{
   width:1000px;
