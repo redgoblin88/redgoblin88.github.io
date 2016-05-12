@@ -26,6 +26,8 @@ body{
 .icon-menu{
   height:60px;
   width:90px;
+  cursor: pointer;
+  font-size: 4vw;
 }
 .menu {
   background: white;
