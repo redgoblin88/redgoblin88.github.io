@@ -59,7 +59,7 @@ img{
 }
 #progress-container span {
     display: block;   /* to enable width and height for this element */
-    background-image: url("images/google.png");
+    background: orange;
     height: 15px;
     width: 25%;
 }
