@@ -30,7 +30,7 @@ body{
   font-size: 2.5vw;
 }
 .menu {
-  background: white;
+  background: #737373;
   left: -208px;  /* start off behind the scenes , accounting for border and width*/
   position: fixed;/*allows it to be hidden*/
   width: 206px;
@@ -43,4 +43,9 @@ body{
 img{
   height:64px;
   width:64px;
+}
+.content{
+ float:right;
+ background:#0080ff;
+ border:1px solid #737373;
 }
