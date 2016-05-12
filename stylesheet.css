@@ -51,3 +51,15 @@ img{
  border:1px solid #737373;
  width:750px;
 }
+
+#progress-container{
+    background: grey; /* default background */
+    width: 200px;
+    overflow: hidden; /* fit to the height of span */
+}
+#progress-container span {
+    display: block;   /* to enable width and height for this element */
+    background: orange;
+    height: 15px;
+    width: 25%;
+}
