@@ -20,7 +20,7 @@ body{
   float:right;
   width:750px;
 }
-#mbtn{
+.sidebar{
   float:left;
   padding: 5px;
 }
