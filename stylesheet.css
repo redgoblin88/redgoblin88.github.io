@@ -24,3 +24,10 @@ body{
   float:left;
   padding: 5px;
 }
+.menu {
+  background: white;
+  left: -208px;  /* start off behind the scenes , accounting for border and width*/
+  position: fixed;/*allows it to be hidden*/
+  width: 206px;
+  border:1px solid black;
+}
