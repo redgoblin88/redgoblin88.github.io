@@ -24,6 +24,9 @@ body{
   float:left;
   padding: 5px;
 }
+.icon-menu{
+  height:3px;
+}
 .menu {
   background: white;
   left: -208px;  /* start off behind the scenes , accounting for border and width*/
