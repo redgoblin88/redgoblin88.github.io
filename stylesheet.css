@@ -5,6 +5,7 @@ body{
   background-color:#3399ff;
   border:1px solid red;
   margin:50px;
+  height:1000px; /*just to get the size right*/
 }
 .headder{
   background-color:#0073e6;
