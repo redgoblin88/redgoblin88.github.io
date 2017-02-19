@@ -4,7 +4,7 @@ body{
 .wrapper{
   background-color:#3399ff;
   border:1px solid #737373;
-  margin:25px;
+  margin:50px;
   height:1000px; /*just to get the size right*/
 }
 .headder{
