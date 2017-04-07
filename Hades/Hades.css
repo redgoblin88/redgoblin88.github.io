@@ -4,8 +4,6 @@ body{
 #content_wrapper{
 	background-color:#0000ff;
 	border:1px solid black;
-	height: 100%;
-	bottom: 0px;
 }
 a{
 	color:black;
