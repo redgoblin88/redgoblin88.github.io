@@ -1,0 +1,95 @@
+.MainDB {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.SilverDB {
+    background-color: #3498DB;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	width:160;
+}
+.SheerDB {
+    background-color: #3498DB;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	width:160;
+}
+
+.MainDB:hover, .MainDB:focus {
+    background-color: #1900F9;
+}
+.SilverDB:hover, .SilverDB:focus {
+    background-color: #1900F9;
+}
+.SheerDB:hover, .SheerDB:focus {
+    background-color: #1900F9;
+}
+
+.MainDrop {
+    position: relative;
+}
+.SilverDrop {
+    position: relative;
+}
+.SheerDrop {
+    position: relative;
+}
+
+.MainDropCB {
+    display: none;
+    position: absolute;
+    width: 160px;
+    background-color: #a6a6a6;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border:1px solid black;
+}
+.SilverDropCB {
+    display: none;
+    position: relative;
+    width: 160px;
+	left:-1px;
+    background-color: #00ffff;
+	border:1px solid black;
+}
+.SheerDropCB {
+    display: none;
+    position: relative;
+    width: 160px;
+	left:-1px;
+    background-color: #00ffff;
+	border:1px solid black;
+}
+
+.MainDropCB a {
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+.SilverDropCB a {
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+.SheerDropCB a {
+    color: black;
+    padding: 4px 4px;
+    text-decoration: none;
+    display: block;
+}
+
+.MainDrop a:hover {background-color: #00fffa;}
+.SilverDrop a:hover {background-color: #02cce2;}
+.SheerDrop a:hover {background-color: #02cce2;}
+
+.show {display:block;}
+/*a {background-color:#00e6e6;}*/
