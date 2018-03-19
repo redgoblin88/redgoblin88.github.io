@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>Immersive Railroading Wiki</title>
+	</head>
+	<body>
+		<link rel="stylesheet" type="text/css" href="IRSS.css"/>
+		<link type="text/javascript" href="IRJS.js"/>
+		
+			<input type="range" min="1" max="4" value="1" class="slider" id="SliderS">
+		<button type="button" onclick="Update()">Update</button>
+		<p id="Output">0</p>
+		<p id="pic">picy</p>
+		<script>
+		function Update() {
+    var x = document.getElementById("SliderS");
+	var Y = document.createElement("IMG");
+	var z = 0;
+		document.getElementById("Output").innerHTML ="Layer: " + x.value;
+		//document.getElementById("pic").innerHTML = setAttribute("src", "LEB.png");
+		Y.setAttribute("alt", "'LEB'not found");
+		Y.setAttribute("src", "LEB.png");
+		document.body.appendChild(Y);
+		
+}
+</script>
+		
+	</body>
+</html>
