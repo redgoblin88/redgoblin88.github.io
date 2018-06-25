@@ -1,0 +1,100 @@
+<html>
+	<header><title>Waffle Clicker</title></header>
+	<body onload="checkCookie()">
+		<link rel="stylesheet" type="text/css" href="resources/stylesheet.css"/>
+
+		<center id="title">Waffle Clicker</center>
+		<button onclick="restart()">Restart game</button>
+	<table>
+	<tr>
+	<th onclick="add(+1)">+1</th>
+	<th onclick="add(+2)">+2</th>
+	<th onclick="add(+3)">+3</th>
+	</tr>
+	<tr>
+	<th onclick="add(-1)">-1</th>
+	<th onclick="add(-2)">-2</th>
+	<th onclick="add(-3)">-3</th>
+	</tr>
+	</table>
+	
+	<p id="demo">The counter is: 0</p>
+	
+	<button onclick="multiplier(+0.1)">Multiplier +0.1</button>
+	<button onclick="multiplier(+0.5)">Multiplier +0.5</button>
+	<button onclick="multiplier(+1)">Multiplier +1</button>
+	<p id="multi">The multiplier is: 1</p>
+	<p id="cooki">cookie</p>
+
+<script>
+function checkCookie(){
+alert("Welcome to Waffle clicker, please note that this game is still in the very early stages and is under work!")
+}
+//function setCookie(cname,cvalue) {
+//    var d = new Date();
+//    var expires = "expires=" + d.toGMTString();
+//    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+//}
+
+//function getCookie(cname) {
+//    var name = cname + "=";
+//    var decodedCookie = decodeURIComponent(document.cookie);
+//    var ca = decodedCookie.split(';');
+//    for(var i = 0; i < ca.length; i++) {
+//        var c = ca[i];
+//        while (c.charAt(0) == ' ') {
+//            c = c.substring(1);
+//        }
+//        if (c.indexOf(name) == 0) {
+//            return c.substring(name.length, c.length);
+//        }
+//    }
+//    return "";
+//}
+
+//function checkCookie() {
+//    var user=getCookie("username");
+//    if (user != "") {
+//        alert("Welcome again " + user);
+//    } else {
+//       user = prompt("Please enter your name:","");
+//       if (user != "" && user != null) {
+//           setCookie("username", user);
+//       }
+//    }
+//}
+
+var counter = 0;
+var multiplie = 1;
+
+ 
+ 
+function restart(){
+	counter = 0;
+	multiplie = 1;
+	document.getElementById("demo").innerHTML = "The counter is: " + counter;
+	document.getElementById("multi").innerHTML = "The multiplier is: " + multiplie;
+}
+
+function multiplier(multi){
+	multiplie += multi;
+	
+	var ded = multiplie.toFixed(1);
+	document.getElementById("multi").innerHTML = "The multiplier is: " + ded;
+}
+
+function add(No) {
+	var total = No * multiplie.toFixed(1);
+    counter += total;
+	document.getElementById("demo").innerHTML = "The counter is: " + counter;
+}
+
+</script>
+	
+	
+<!--
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_table_insertrow
+https://www.w3schools.com/jsref/jsref_tofixed.asp
+-->
+</body></html>
+
