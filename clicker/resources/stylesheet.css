@@ -19,3 +19,7 @@ th{
 	letter-spacing:5px;
 	text-shadow: 3px 3px yellow;
 }
+#CL{
+	position:absolute;
+	bottom:5px;
+}
