@@ -1,37 +1,12 @@
-body{
-background-color:#001133;
-margin:0px;
+
+table{
+	background-color:#a6a6a6;
+	border: 10px outset;
 }
-#mainstuff{
-background:gray;
-width:50%;
-height:50%;}
-#sidebar{
-	padding:20px;
-	
-	height:100%;
-	float:left;
-	background: url("sidebar.png");
-	border-right:10px solid #0055ff;
+#text{
+	border: 2px solid transparent;
 }
-button:focus{
-outline:0;}
-button.sidebar{
-	width:150px;
-	height:75px;
-	background:none;
-	border:none;
-	font-size:24px;
+#text:hover{
+	border: 2px solid blue;
+	background-color:#99ccff;
 }
-div.sidebar{
-	margin-top:30px;
-	background: url("icon2.png");
-	background-repeat:no-repeat;
-	width:150px;
-	height:75px;
-}
-button.sidebar:hover{
-background: url("icon.png");}
-button.sidebar:active{
-background: url("icon3.png");
-border:none;}
