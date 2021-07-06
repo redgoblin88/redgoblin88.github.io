@@ -12,8 +12,41 @@ table{
 }
 
 body{
-  background-color:#cccccc;
-  }
+background-color:#001133;
+margin:0px;
+}
+#mainstuff{
+	padding:25px;
+	padding-left:250px;
+	background:gray;}
+#sidebar{
+	padding:20px;
+	height:100%;
+	float:left;
+	background: url("sidebar.png");
+	border-right:10px solid #0055ff;
+}
+button:focus{
+outline:0;}
+button.sidebar{
+	width:150px;
+	height:75px;
+	background:none;
+	border:none;
+	font-size:24px;
+}
+div.sidebar{
+	margin-top:30px;
+	background: url("icon2.png");
+	background-repeat:no-repeat;
+	width:150px;
+	height:75px;
+}
+button.sidebar:hover{
+background: url("icon.png");}
+button.sidebar:active{
+background: url("icon3.png");
+border:none;}
 .wrapper{
   background-color:#3399ff;
   border:1px solid #737373;
@@ -36,6 +69,7 @@ body{
 .sidebar{
   float:left;
   padding: 5px;
+  background-image: url("icon.ong");
 }
 .icon-menu{
   height:60px;
@@ -65,17 +99,7 @@ img{
  width:750px;
 }
 
-#progress-container{
-    background: grey; /* default background */
-    width: 200px;
-    overflow: hidden; /* fit to the height of span */
-}
-#progress-container span {
-    display: block;   /* to enable width and height for this element */
-    background: orange;
-    height: 15px;
-    width: 25%;
-}
+
 .container {
   position: relative;
   width: 50%;
@@ -102,14 +126,4 @@ img{
 
 .container:hover .overlay {
   opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
