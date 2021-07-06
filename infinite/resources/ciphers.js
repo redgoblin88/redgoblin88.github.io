@@ -58,7 +58,7 @@ function shuffle(string){
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 13:
-		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		document.getElementById('pos'+position).innerHTML=position+". Each of us has the ability to be a hero even if what you are doing seems minor";
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 14:
