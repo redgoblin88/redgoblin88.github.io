@@ -10,3 +10,106 @@ table{
 	border: 2px solid blue;
 	background-color:#99ccff;
 }
+
+body{
+  background-color:#cccccc;
+  }
+.wrapper{
+  background-color:#3399ff;
+  border:1px solid #737373;
+  margin:50px;
+  height:1000px; /*just to get the size right*/
+}
+.headder{
+  background-color:#0073e6;
+  border:1px solid #737373;
+  height:60px;
+}
+#GSR{
+  width:750px;
+  height:1000px;
+}
+#search{
+  float:right;
+  width:750px;
+}
+.sidebar{
+  float:left;
+  padding: 5px;
+}
+.icon-menu{
+  height:60px;
+  width:120px;
+  cursor: pointer;
+  font-size: 2.5vw;
+}
+.menu {
+  background: #bfbfbf;
+  left: -208px;  /* start off behind the scenes , accounting for border and width*/
+  position: fixed;/*allows it to be hidden*/
+  width: 206px;
+  border:1px solid black;
+}
+.icon-close{
+  cursor: pointer;
+  font-size:32px;
+}
+img{
+  height:64px;
+  width:64px;
+}
+.content{
+ float:right;
+ background:#0080ff;
+ border:1px solid #737373;
+ width:750px;
+}
+
+#progress-container{
+    background: grey; /* default background */
+    width: 200px;
+    overflow: hidden; /* fit to the height of span */
+}
+#progress-container span {
+    display: block;   /* to enable width and height for this element */
+    background: orange;
+    height: 15px;
+    width: 25%;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .1s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
