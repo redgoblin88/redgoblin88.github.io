@@ -54,7 +54,7 @@ function shuffle(string){
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 12:
-		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		document.getElementById('pos'+position).innerHTML=position+". At times we lose sight of this ideal and have";
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 13:
@@ -62,7 +62,7 @@ function shuffle(string){
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 14:
-		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		document.getElementById('pos'+position).innerHTML=position+". Each one protects us in a different way but all deserve respect for their part ";
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 15:
@@ -70,8 +70,16 @@ function shuffle(string){
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 16:
+		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		break;
+		case 17:
+		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		break;
+		case 18:
 		document.getElementById('pos'+position).innerHTML=position+"";
 		break;
+			
+		
 		
 		default:
 		document.getElementById("output").innerHTML="Something went wrong! error: "+string+":"+position;
