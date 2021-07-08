@@ -70,7 +70,7 @@ function shuffle(string){
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 16:
-		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		document.getElementById('pos'+position).innerHTML=position+". Given some of those heroes far less than the respect they deserve";
 		break;
 		case 17:
 		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
