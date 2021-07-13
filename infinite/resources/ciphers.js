@@ -66,14 +66,14 @@ function shuffle(string){
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 15:
-		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		document.getElementById('pos'+position).innerHTML=position+". Even if they decline people may learn from your example and";
 		document.getElementById('neworder'+string).innerHTML = position;
 		break;
 		case 16:
 		document.getElementById('pos'+position).innerHTML=position+". Given some of those heroes far less than the respect they deserve";
 		break;
 		case 17:
-		document.getElementById('pos'+position).innerHTML=position+". [[UNKNOWN]]";
+		document.getElementById('pos'+position).innerHTML=position+". Visualise that world… Where humanity can work together instead of dividing appart";
 		break;
 		case 18:
 		document.getElementById('pos'+position).innerHTML=position+"";
